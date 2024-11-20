@@ -1,5 +1,30 @@
-body {
-  background: var(--tg-theme-secondary-bg-color, white);
-  padding: 0;
+/* 全局样式 */
+body, html {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  /* background: linear-gradient(to bottom, #ebf8ff, #e0e7ff); */
+  background: #ebf8ff;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* 加载动画 */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 响应式样式 */
+@media (max-width: 600px) {
+  .images-wrapper {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .image-section {
+    width: 80% !important;
+  }
 }
