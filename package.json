@@ -1,9 +1,9 @@
 {
-  "name": "reactjs-template",
+  "name": "photo-tg",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://telegram-mini-apps.github.io/reactjs-template",
+  "homepage": "https://pskishere.github.io/reactjs-template",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
